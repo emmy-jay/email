@@ -1,0 +1,180 @@
+/* Add CSS styles here */
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+a{
+    text-decoration: none;
+    color: #80BC00;
+}
+
+.email-container {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-top-right-radius:  30px;
+    border-bottom-left-radius: 30px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.logo .tln-logo img{
+    width: 150px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.header {
+    color: #000;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.header h1 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header p{
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.header p strong{
+    color: #80BC00;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.content ul{
+    padding: 0;
+}
+
+.content li{
+  list-style: none;
+  padding: 2px 0;
+}
+
+.content li span{
+    color: #80BC00;
+    cursor: pointer;
+}
+
+.order-title,
+.quantity-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order, 
+.order-title{
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.order-title h3{
+    font-weight: 500;
+}
+
+.quantity-price{
+    gap: 80px;
+}
+
+.ticket-type h3{
+    font-weight: 300;
+}
+
+.sum{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.total h3{
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.download{
+    margin: 20px 0;
+}
+
+.complementary{
+    text-align: center;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000;
+    padding: 10px;
+}
+
+.socials{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+.footer p{
+    color: rgb(91, 91, 91);
+    text-align: center;
+}
+
+@media (max-width: 412px) {
+    .logo img{
+        width: 70px;
+    }
+    .header h1{
+        font-size: 16px;
+    }
+
+    .header p{
+        font-size: 9px;
+    }
+
+    .content li{
+        font-size: 10px;
+    }
+
+    .content h2{
+        font-size: 20px;
+    }
+
+    .order h3{
+        font-size: 12px;
+    }
+
+    .quantity-price{
+        gap: 20px;
+    }
+
+    .download a{
+        font-size: 12px;
+    }
+
+    .complementary{
+        font-size: 12px;
+    }
+}
